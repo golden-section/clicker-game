@@ -56,6 +56,7 @@ ul {
 
 .emoji {
   position: absolute;
+  cursor: default;
 }
 
 .hide {
