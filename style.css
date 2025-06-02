@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+}
+
+a:hover {
+  color: rgb(247, 168, 72);
+}
+
+.screen {
+  width: 100vw;
+  height: 100%;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.screen.up {
+  margin-top: -100vh;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 25px;
+  position: relative;
+  background-color: rgb(23, 22, 22);
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.emoji {
+  position: absolute;
+}
+
+.hide {
+    opacity: 0;
+}
+
+button {
+  padding: 7px 12px;
+  cursor: pointer;
+}

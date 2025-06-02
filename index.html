@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>Check reaction?</h1>
+        <a href="#" id="start">Yes</a>
+    </div>
+    <div class="screen">
+        <h1>Select game duration</h1>
+        <ul id="time-list">
+            <li><button class="time-btn" data-time="5">5 sec</button></li>
+            <li><button class="time-btn" data-time="20">20 sec</button></li>
+            <li><button class="time-btn" data-time="30">30 sec</button></li>
+            <li><button class="time-btn" data-time="40">40 sec</button></li>
+        </ul>
+    </div>
+    <div class="screen">
+        <h3>Game ends in <span id="time">00:00</span></h3>
+        <div class="board" id="board"></div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
