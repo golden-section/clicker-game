@@ -30,7 +30,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 15px;
 }
 ul {
   list-style: none;
@@ -51,7 +51,7 @@ ul {
   position: relative;
   background-color: rgb(23, 22, 22);
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 15px;
 }
 
 .emoji {
@@ -66,4 +66,13 @@ ul {
 button {
   padding: 7px 12px;
   cursor: pointer;
+}
+
+.rules {
+  max-width: 300px;
+  text-align: center;
+}
+
+.rules span {
+  display: block;
 }
