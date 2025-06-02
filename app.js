@@ -17,7 +17,6 @@ startBtn.addEventListener('click', (e) => {
 timeList.addEventListener('click', (e) => {
     if (e.target.classList.contains('time-btn')) {
         time = e.target.dataset.time;
-        console.log(time);
         screens[1].classList.add('up');
         if (time < 10) {
             time = `0${time}`;
