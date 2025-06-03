@@ -76,3 +76,10 @@ button {
 .rules span {
   display: block;
 }
+
+@media (max-width: 540px) {
+  .board {
+    width: 350px;
+    height: 350px;
+  }
+}
